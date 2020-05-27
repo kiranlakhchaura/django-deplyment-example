@@ -1,0 +1,13 @@
+{% extends "basic_app/base.html" %}
+{% load static %}
+
+<div class="container">
+    {% block body_block %}
+    <div class="jumbotron">
+        <h1 class="display-4">The Painting Project</h1>
+        <p class="lead">An experimental social media project for practice.</p>
+        <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione eaque officiis aut eligendi ducimus nihil dolorem pariatur quibusdam delectus ex sed fugit minus animi, blanditiis id quasi, tempore labore earum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dicta quia tempora doloribus earum. Mollitia, corporis, minus illum dolorum sapiente quis pariatur ipsa, magnam asperiores laudantium optio rem nisi eius?</p>
+    </div>
+    <img class="img-fluid" src="{% static 'images/1.jpg' %}" alt="Image Not Found!">
+    {% endblock %}
+</div>
